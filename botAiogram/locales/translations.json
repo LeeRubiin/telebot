@@ -1,0 +1,12 @@
+{
+    "ru": {
+        "start_message": "Привет! Пожалуйста, выберите язык:\n\nHello! Please choose a language:",
+        "welcome_message": "Добро пожаловать!",
+        "language_selected": "Вы выбрали Русский язык."
+    },
+    "kk": {
+        "start_message": "Сәлеметсіз бе! Тілді таңдаңыз:\n\nHello! Please choose a language:",
+        "welcome_message": "Қош келдіңіз!",
+        "language_selected": "Сіз Қазақ тілін таңдадыңыз."
+    }
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Information</title>
+</head>
+<body>
+    <h1>User Information</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Surname</th>
+                <th>Name</th>
+                <th>Patronymic</th>
+                <th>IIN</th>
+                <th>City</th>
+                <th>Nationality</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for user in user_data %}
+            <tr>
+                <td>{{ user['surname'] }}</td>
+                <td>{{ user['name'] }}</td>
+                <td>{{ user['patronymic'] }}</td>
+                <td>{{ user['iin'] }}</td>
+                <td>{{ user['city'] }}</td>
+                <td>{{ user['nationality'] }}</td>
+                <td>{{ user['age'] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
